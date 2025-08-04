@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio JavaScript Intermediario</title>
+
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+
+<body>
+    <main>
+        <div class="conteudo">
+            <div class="informativo">
+                <h1 class="titulo">FICOU COM DÚVIDA?<br> NOS MANDE UMA MENSAGEM!</h1>
+                <p class="paragrafo">caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em
+                    contato em menos de 24h.</p>
+            </div>
+            <form method="post" action="index.html" class="formulario">
+                <input class="borda-padrao" type="text" name="nome" id="nome" placeholder="Nome completo *" required>
+
+                <input class="borda-padrao" type="text" name="email" id="email" placeholder="Email *" required>
+
+                <input class="borda-padrao" type="text" name="telefone" id="telefone" placeholder="Telefone *" required>
+
+                <textarea class="borda-padrao" name="mensagem" id="mensagem" placeholder="Mensagem *" cols="20" rows="10" required></textarea>
+                
+                <p>*campos obrigatórios</p>
+                <button id="btn" class="btn" type="submit">Enviar</button>
+            </form>
+        </div>
+    </main>
+
+    <script src="src/js/index.js"></script>
+</body>
+
+</html>
